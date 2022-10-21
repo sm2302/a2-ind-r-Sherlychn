@@ -9,5 +9,16 @@ pareto_pdf <- function(x, alpha, beta) {
   return(fx)
 }
 
+# Q2 ---------------------------------------------------------------------------
+pareto_dev <- function(alpha, beta, x) {
+  g(x) <- 2(log(alpha) + alpha*log(beta))*(sum(alpha*log(x)+log(x)))
+  return(gx)
+}
+
+
+
+
+
+
 # Complete the rest of the questions.
 # Good luck!
