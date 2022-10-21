@@ -5,13 +5,13 @@ library(tidyverse)
 # Q1 ---------------------------------------------------------------------------
 pareto_pdf <- function(x, alpha, beta) {
   # your code here
-  f(x) <- ((alpha)*(beta^aplha)/(x^(alpha+1)))
+  fx <- ((alpha)*(beta^aplha)/(x^(alpha+1)))
   return(fx)
 }
 
 # Q2 ---------------------------------------------------------------------------
 pareto_dev <- function(alpha, beta, x) {
-  g(x) <- 2(log(alpha) + alpha*log(beta))*(sum(alpha*log(x)+log(x)))
+  gx <- 2(ln(alpha) + alpha*ln(beta))*(sum(alpha*ln(x)+ln(x)))
   return(gx)
 }
 
